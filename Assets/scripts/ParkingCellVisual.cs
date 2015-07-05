@@ -5,7 +5,7 @@ public class ParkingCellVisual : MonoBehaviour {
 	[SerializeField]
 	private LineRenderer line = null;
 	[SerializeField]
-	private TextMesh text = null;
+	private GameObject textP = null;
 
 	private FieldCell cell = null;
 
@@ -41,7 +41,7 @@ public class ParkingCellVisual : MonoBehaviour {
 
 		this.cell = cell;
 
-		text.gameObject.SetActive(cell.IsTarget);
+		textP.gameObject.SetActive(cell.IsTarget);
 
 		allCells[this.cell] = this;
 	}

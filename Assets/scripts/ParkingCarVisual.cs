@@ -2,6 +2,12 @@
 
 public class ParkingCarVisual : MonoBehaviour {
 
+	[SerializeField]
+	private Transform modelRoot = null;
+
+	[SerializeField]
+	private GameObject[] carsModels = null;
+
 	public Bounds VisualBounds {
 		get {
 			return GetComponent<SpriteRenderer>().bounds;
@@ -14,7 +20,11 @@ public class ParkingCarVisual : MonoBehaviour {
 	}
 
 	private void Awake() {
-		//
+		if (modelRoot != null && carsModels.Length > 0) {
+			GameObject model = Instantiate(carsModels[Random.Range(0, carsModels.Length)]);
+			model.transform.SetParent(modelRoot, false);
+			model.transform.localScale = Vector3.one;
+        }
 	}
 
 	public void Setup(Car car) {

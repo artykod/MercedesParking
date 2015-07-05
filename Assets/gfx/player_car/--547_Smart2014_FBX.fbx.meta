@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: c037f32a3df202549a7967212116de1e
+timeCreated: 1435684879
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BackDoorHandl
+    100004: Bottom_protection001
+    100006: 'camera #36'
+    100008: Car_number001
+    100010: Car_number002
+    100012: Door_interior
+    100014: Exsaust_pipe_001
+    100016: From_light_part_1_001
+    100018: From_light_part_2_001
+    100020: From_light_part_3_001
+    100022: From_light_part_4_001
+    100024: Front_brakes001
+    100026: Front_logo001
+    100028: Front_logo002
+    100030: Interior
+    100032: Interior_panel_001
+    100034: InteriorMirror
+    100036: 'light #37'
+    100038: 'light #38'
+    100040: 'light #39'
+    100042: 'light #40'
+    100044: Main_body_try_to_fix
+    100046: Rear_breaks_001
+    100048: RearWiper
+    100050: Screen001
+    100052: Seat_001
+    100054: Seat_stand001
+    100056: Side_mirror001
+    100058: Smart_rear_logo001
+    100060: speedometer001
+    100062: speedometer002
+    100064: Steering_wheel_001
+    100066: Steering_wheel_part
+    100068: suspension_part_001
+    100070: ventilation001
+    100072: ventilation002
+    100074: ventilation003
+    100076: Wheel_002
+    100078: Wheel_003
+    100080: Wiper001
+    100082: Wiper002
+    400000: //RootNode
+    400002: BackDoorHandl
+    400004: Bottom_protection001
+    400006: 'camera #36'
+    400008: Car_number001
+    400010: Car_number002
+    400012: Door_interior
+    400014: Exsaust_pipe_001
+    400016: From_light_part_1_001
+    400018: From_light_part_2_001
+    400020: From_light_part_3_001
+    400022: From_light_part_4_001
+    400024: Front_brakes001
+    400026: Front_logo001
+    400028: Front_logo002
+    400030: Interior
+    400032: Interior_panel_001
+    400034: InteriorMirror
+    400036: 'light #37'
+    400038: 'light #38'
+    400040: 'light #39'
+    400042: 'light #40'
+    400044: Main_body_try_to_fix
+    400046: Rear_breaks_001
+    400048: RearWiper
+    400050: Screen001
+    400052: Seat_001
+    400054: Seat_stand001
+    400056: Side_mirror001
+    400058: Smart_rear_logo001
+    400060: speedometer001
+    400062: speedometer002
+    400064: Steering_wheel_001
+    400066: Steering_wheel_part
+    400068: suspension_part_001
+    400070: ventilation001
+    400072: ventilation002
+    400074: ventilation003
+    400076: Wheel_002
+    400078: Wheel_003
+    400080: Wiper001
+    400082: Wiper002
+    2300000: BackDoorHandl
+    2300002: Bottom_protection001
+    2300004: Car_number001
+    2300006: Car_number002
+    2300008: Door_interior
+    2300010: Exsaust_pipe_001
+    2300012: From_light_part_1_001
+    2300014: From_light_part_2_001
+    2300016: From_light_part_3_001
+    2300018: From_light_part_4_001
+    2300020: Front_brakes001
+    2300022: Front_logo001
+    2300024: Front_logo002
+    2300026: Interior
+    2300028: Interior_panel_001
+    2300030: InteriorMirror
+    2300032: Main_body_try_to_fix
+    2300034: Rear_breaks_001
+    2300036: RearWiper
+    2300038: Screen001
+    2300040: Seat_001
+    2300042: Seat_stand001
+    2300044: Side_mirror001
+    2300046: Smart_rear_logo001
+    2300048: speedometer001
+    2300050: speedometer002
+    2300052: Steering_wheel_001
+    2300054: Steering_wheel_part
+    2300056: suspension_part_001
+    2300058: ventilation001
+    2300060: ventilation002
+    2300062: ventilation003
+    2300064: Wheel_002
+    2300066: Wheel_003
+    2300068: Wiper001
+    2300070: Wiper002
+    3300000: BackDoorHandl
+    3300002: Bottom_protection001
+    3300004: Car_number001
+    3300006: Car_number002
+    3300008: Door_interior
+    3300010: Exsaust_pipe_001
+    3300012: From_light_part_1_001
+    3300014: From_light_part_2_001
+    3300016: From_light_part_3_001
+    3300018: From_light_part_4_001
+    3300020: Front_brakes001
+    3300022: Front_logo001
+    3300024: Front_logo002
+    3300026: Interior
+    3300028: Interior_panel_001
+    3300030: InteriorMirror
+    3300032: Main_body_try_to_fix
+    3300034: Rear_breaks_001
+    3300036: RearWiper
+    3300038: Screen001
+    3300040: Seat_001
+    3300042: Seat_stand001
+    3300044: Side_mirror001
+    3300046: Smart_rear_logo001
+    3300048: speedometer001
+    3300050: speedometer002
+    3300052: Steering_wheel_001
+    3300054: Steering_wheel_part
+    3300056: suspension_part_001
+    3300058: ventilation001
+    3300060: ventilation002
+    3300062: ventilation003
+    3300064: Wheel_002
+    3300066: Wheel_003
+    3300068: Wiper001
+    3300070: Wiper002
+    4300000: Side_mirror001
+    4300002: Bottom_protection001
+    4300004: Front_brakes001
+    4300006: Rear_breaks_001
+    4300008: Front_logo001
+    4300010: Smart_rear_logo001
+    4300012: Wiper001
+    4300014: Wiper002
+    4300016: ventilation002
+    4300018: Steering_wheel_part
+    4300020: speedometer002
+    4300022: Interior
+    4300024: Door_interior
+    4300026: Wheel_002
+    4300028: Interior_panel_001
+    4300030: Steering_wheel_001
+    4300032: speedometer001
+    4300034: Seat_001
+    4300036: Screen001
+    4300038: From_light_part_4_001
+    4300040: From_light_part_1_001
+    4300042: From_light_part_3_001
+    4300044: From_light_part_2_001
+    4300046: Wheel_003
+    4300048: Car_number001
+    4300050: Car_number002
+    4300052: Exsaust_pipe_001
+    4300054: suspension_part_001
+    4300056: Seat_stand001
+    4300058: ventilation003
+    4300060: ventilation001
+    4300062: Front_logo002
+    4300064: InteriorMirror
+    4300066: RearWiper
+    4300068: BackDoorHandl
+    4300070: Main_body_try_to_fix
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
