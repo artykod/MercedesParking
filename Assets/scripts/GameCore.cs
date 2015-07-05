@@ -5,6 +5,30 @@ public class GameCore : MonoBehaviour {
 	[System.NonSerialized]
 	private static bool initialized = false;
 
+	public static bool IsGameStarted {
+		get;
+		private set;
+	}
+
+	public static event System.Action OnWinGame;
+	public static event System.Action OnStartGame;
+
+	public static void WinGame() {
+		IsGameStarted = false;
+
+		if (OnWinGame != null) {
+			OnWinGame();
+		}
+	}
+
+	public static void StartGame() {
+		IsGameStarted = true;
+
+        if (OnStartGame != null) {
+			OnStartGame();
+		}
+	}
+
 	[RuntimeInitializeOnLoadMethod]
 	private static void Initialize() {
 		if (!Application.isPlaying || initialized) {

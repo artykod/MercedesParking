@@ -12,6 +12,7 @@ public class PlayerCar : Car {
 
 		if (CellRoot.IsTarget) {
 			Debug.Log("Game done");
+			GameCore.WinGame();
 		}
 
 		return result;

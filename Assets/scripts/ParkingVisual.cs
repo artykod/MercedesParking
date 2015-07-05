@@ -42,6 +42,10 @@ public class ParkingVisual : MonoBehaviour {
         }
 	}
 
+	private void Start() {
+		GameCore.StartGame();
+	}
+
 	private bool IsPointInBounds(Vector2 point, Bounds bounds) {
 		Vector2 min = bounds.min;
 		Vector2 max = bounds.max;
@@ -49,6 +53,10 @@ public class ParkingVisual : MonoBehaviour {
 	}
 
 	private void Update() {
+
+		if (!GameCore.IsGameStarted) {
+			return;
+		}
 
 		Vector2 touch = Input.mousePosition;
 
