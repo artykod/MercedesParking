@@ -53,7 +53,7 @@ public class ParkingCellVisual : MonoBehaviour {
 		for (int i = 0; i < 4; i++) {
 			line = Instantiate(line);
 			line.transform.SetParent(transform, false);
-			line.transform.localPosition = new Vector3(0f, 0f, -1f);
+			line.transform.localPosition = new Vector3(0f, 0f, -0.00001f);
 			line.SetVertexCount(2);
 			switch (i) {
 			case 0:

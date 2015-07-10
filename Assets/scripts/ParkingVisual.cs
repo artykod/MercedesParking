@@ -78,6 +78,13 @@ public class ParkingVisual : MonoBehaviour {
 
 			Vector2 worldTouch = Camera.main.ScreenToWorldPoint(lastTouch);
 
+			Ray ray = Camera.main.ScreenPointToRay(lastTouch);
+			Plane p = new Plane(Vector3.back, transform.position.z);
+			float rayDistance = 0f;
+			if (p.Raycast(ray, out rayDistance)) {
+				worldTouch = ray.GetPoint(rayDistance);
+			}
+
 			ParkingCarVisual car = null;
 			foreach (var i in cars) {
 				if (IsPointInBounds(worldTouch, i.VisualBounds)) {

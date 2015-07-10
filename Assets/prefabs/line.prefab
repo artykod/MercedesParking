@@ -36,7 +36,7 @@ LineRenderer:
   m_GameObject: {fileID: 137718}
   m_Enabled: 1
   m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: 7dfc6189d552a414e93b76cc5d497bf0, type: 2}
   m_SubsetIndices: 
@@ -91,6 +91,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Parameters.endWidth
       value: .0250000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseLightProbes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

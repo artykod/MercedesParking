@@ -33,7 +33,7 @@ public class ParkingCarVisual : MonoBehaviour {
 		Car = car;
 
 		if (cell != null) {
-			transform.localPosition = cell.transform.localPosition + new Vector3(0f, 0f, -1f);
+			transform.localPosition = cell.transform.localPosition + new Vector3(0f, 0f, 0f);
 
 			float angle = 0f;
 			switch (car.MoveDirection) {
@@ -59,7 +59,7 @@ public class ParkingCarVisual : MonoBehaviour {
 		if (Car != null) {
 			ParkingCellVisual cell = ParkingCellVisual.GetCellVisual(Car.CellRoot);
 			if (cell != null) {
-				transform.localPosition = cell.transform.localPosition + new Vector3(0f, 0f, -2f);
+				transform.localPosition = cell.transform.localPosition + new Vector3(0f, 0f, 0f);
 			}
 		}
 	}
