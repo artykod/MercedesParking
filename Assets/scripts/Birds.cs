@@ -17,7 +17,7 @@ public class Birds : MonoBehaviour {
 	}
 
 	private Vector3 RandomPosition() {
-		float screenRadius = 15f;
+		float screenRadius = 20f;
 		Vector3 rotation = Quaternion2DHelper.DirectionFromRotation(Quaternion2DHelper.RotationWithDegrees(Random.Range(0f, 360f)));
 		return rotation * screenRadius;
 	}
@@ -29,8 +29,8 @@ public class Birds : MonoBehaviour {
 		Vector3 randomPosition = RandomPosition();
 		Vector3 randomPositionTarget = RandomPosition();
 
-		Vector3 start = new Vector3(randomPosition.x, randomPosition.y, -8f);
-		Vector3 target = new Vector3(randomPositionTarget.x, randomPositionTarget.y, -8f);
+		Vector3 start = new Vector3(randomPosition.x, randomPosition.y, 0f);
+		Vector3 target = new Vector3(randomPositionTarget.x, randomPositionTarget.y, 0f);
 
 		Quaternion q = Quaternion2DHelper.RotationWithDirection(target - start);
 

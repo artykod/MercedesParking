@@ -20,7 +20,7 @@ public class ParkingVisual : MonoBehaviour {
 	private Vector2 lastTouch = Vector2.zero;
 
 	private void Awake() {
-		Field.Generate(8, 6);
+		Field.Generate(13, 5);
 
 		cells.Clear();
 		foreach (var i in Field.Instance.Cells) {

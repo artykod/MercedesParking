@@ -40,8 +40,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cellVisual: {fileID: 11415796, guid: 3ccf5857007e9f24fb8c1f2fa2189fd8, type: 2}
-  cellVisualWidth: 1.35000002
-  cellVisualHeight: 1.35000002
+  cellVisualWidth: 1.38
+  cellVisualHeight: 1.38
   carVisual: {fileID: 11429576, guid: 537738a0c719f5e41a434c60bd023278, type: 2}
   carVisualPlayer: {fileID: 11429576, guid: f27c19262ae007c479ff92b6ac675587, type: 2}
 --- !u!1001 &100100000

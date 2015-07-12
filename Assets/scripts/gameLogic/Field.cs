@@ -52,30 +52,26 @@ public class Field {
 		cells.Clear();
 		for (int y = 0; y < sizeY; y++) {
 			for (int x = 0; x < sizeX; x++) {
-				FieldCell cell = new FieldCell(y * sizeX + x, x, y, x == 1 && y == sizeY - 1, y == 0 && x != 4);
+				FieldCell cell = new FieldCell(y * sizeX + x, x, y, x == 0 && y == sizeY / 2, y != sizeY / 2 && x >= sizeX - 4);
 				cells.Add(cell);
 			}
 		}
 
 		cars.Clear();
 
-		cars.Add(new FieldCar().SetPosition(1, 1, Car.Direction.Left));
-		cars.Add(new FieldCar().SetPosition(2, 1, Car.Direction.Up));
-		cars.Add(new FieldCar().SetPosition(6, 1, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(0, 0, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(1, 1, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(2, 3, Car.Direction.Down));
+		cars.Add(new FieldCar().SetPosition(3, 1, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(4, 0, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(5, 1, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(6, 3, Car.Direction.Down));
 		cars.Add(new FieldCar().SetPosition(7, 1, Car.Direction.Up));
-
-		cars.Add(new FieldCar().SetPosition(0, 2, Car.Direction.Up));
-		cars.Add(new FieldCar().SetPosition(3, 2, Car.Direction.Down));
-		cars.Add(new FieldCar().SetPosition(4, 2, Car.Direction.Right));
-		cars.Add(new FieldCar().SetPosition(2, 3, Car.Direction.Left));
-		cars.Add(new FieldCar().SetPosition(4, 3, Car.Direction.Left));
-
-		cars.Add(new FieldCar().SetPosition(0, 4, Car.Direction.Right));
-
-		cars.Add(new FieldCar().SetPosition(2, 5, Car.Direction.Down));
-		cars.Add(new FieldCar().SetPosition(4, 5, Car.Direction.Left));
+		cars.Add(new FieldCar().SetPosition(8, 0, Car.Direction.Up));
+		cars.Add(new FieldCar().SetPosition(2, 4, Car.Direction.Right));
+		cars.Add(new FieldCar().SetPosition(6, 4, Car.Direction.Left));
 
 		// player 
-		cars.Add(new PlayerCar().SetPosition(4, 0, Car.Direction.Any));
+		cars.Add(new PlayerCar().SetPosition(sizeX - 2, sizeY / 2, Car.Direction.Left));
 	}
 }
