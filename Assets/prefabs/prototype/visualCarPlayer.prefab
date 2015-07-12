@@ -1080,7 +1080,7 @@ Transform:
   m_GameObject: {fileID: 120746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .649999976, y: -4.78000021, z: 0}
-  m_LocalScale: {x: 1, y: .449999988, z: 1}
+  m_LocalScale: {x: 1.20000005, y: .600000024, z: 1}
   m_Children:
   - {fileID: 426672}
   m_Father: {fileID: 0}
@@ -2447,6 +2447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3a51babd4621e42b4ab1e48dc9aee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  modelRoot: {fileID: 0}
+  carsModels: []
 --- !u!212 &21245672
 SpriteRenderer:
   m_ObjectHideFlags: 1

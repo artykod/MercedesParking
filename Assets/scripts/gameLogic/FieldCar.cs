@@ -15,7 +15,7 @@ public class FieldCar : Car {
 			return cellForward;
 		}
 		protected set {
-			if (cellForward != null) {
+			if (cellForward != null && cellForward != cellRoot) {
 				cellForward.Car = null;
 			}
 
