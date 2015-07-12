@@ -52,8 +52,24 @@ public class Field {
 		cells.Clear();
 		for (int y = 0; y < sizeY; y++) {
 			for (int x = 0; x < sizeX; x++) {
-				FieldCell cell = new FieldCell(y * sizeX + x, x, y, x == 0 && y == sizeY / 2, y != sizeY / 2 && x >= sizeX - 4);
+				FieldCell cell = new FieldCell(this, y * sizeX + x, x, y, x == 0 && y == sizeY / 2, y != sizeY / 2 && x >= sizeX - 4);
 				cells.Add(cell);
+			}
+		}
+
+		for (int y = 0; y < sizeY; y++) {
+			for (int x = 0; x < sizeX; x++) {
+				int topCellIndex = (y + 1) * sizeX + x;
+				int bottomCellIndex = (y - 1) * sizeX + x;
+				int leftCellIndex = y * sizeX + x - 1;
+				int rightCellIndex = y * sizeX + x + 1;
+
+				cells[y * sizeX + x].SetClosestCells(
+					leftCellIndex >= 0 && leftCellIndex < cells.Count ? cells[leftCellIndex] : null,
+					rightCellIndex >= 0 && rightCellIndex < cells.Count ? cells[rightCellIndex] : null,
+					topCellIndex >= 0 && topCellIndex < cells.Count ? cells[topCellIndex] : null,
+					bottomCellIndex >= 0 && bottomCellIndex < cells.Count ? cells[bottomCellIndex] : null
+				);
 			}
 		}
 
