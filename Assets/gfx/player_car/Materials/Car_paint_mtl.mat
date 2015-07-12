@@ -7,9 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Car_paint_mtl
-  m_Shader: {fileID: 20, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_LightmapFlags: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
@@ -89,7 +89,7 @@ Material:
         first:
           name: _Cube
         second:
-          m_Texture: {fileID: 8900000, guid: 924ae6f2da3b16a4294877e1c6a79e6a, type: 3}
+          m_Texture: {fileID: 8900000, guid: 746df35645dd65445896b926888b0e31, type: 3}
           m_Scale: {x: 2, y: 2}
           m_Offset: {x: .5, y: .5}
     m_Floats:
@@ -120,7 +120,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .312000006
+        second: .662
       data:
         first:
           name: _BumpScale
@@ -144,7 +144,7 @@ Material:
       data:
         first:
           name: _Metallic
-        second: 0
+        second: .307000011
       data:
         first:
           name: _InvFade
@@ -193,4 +193,4 @@ Material:
       data:
         first:
           name: _ReflectColor
-        second: {r: .264705896, g: .264705896, b: .264705896, a: 1}
+        second: {r: .448529422, g: .448529422, b: .448529422, a: 1}

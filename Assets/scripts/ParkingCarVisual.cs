@@ -10,7 +10,7 @@ public class ParkingCarVisual : MonoBehaviour {
 
 	public Bounds VisualBounds {
 		get {
-			return GetComponent<SpriteRenderer>().bounds;
+			return GetComponentInChildren<Renderer>().bounds;
 		}
 	}
 
@@ -59,7 +59,7 @@ public class ParkingCarVisual : MonoBehaviour {
 		if (Car != null) {
 			ParkingCellVisual cell = ParkingCellVisual.GetCellVisual(Car.CellRoot);
 			if (cell != null) {
-				transform.localPosition = cell.transform.localPosition + new Vector3(0f, 0f, 0f);
+				transform.localPosition = Vector3.Lerp(transform.localPosition, cell.transform.localPosition, 0.1f);
 			}
 		}
 	}
