@@ -12,7 +12,7 @@ public class DepthAnimation : MonoBehaviour {
 
 	private void Update() {
 		Vector3 pos = transform.localPosition;
-		float t = animCurve.Evaluate(Time.time + timeOffset);
+		float t = animCurve.Evaluate(Time.time * 0.7f + timeOffset);
 		pos.z = Mathf.Lerp(startZ, endZ, t);
 		transform.localPosition = pos;
     }
