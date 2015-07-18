@@ -43,7 +43,7 @@ MonoBehaviour:
   cellVisualWidth: 1.38
   cellVisualHeight: 1.38
   carVisual: {fileID: 11429576, guid: 537738a0c719f5e41a434c60bd023278, type: 2}
-  carVisualPlayer: {fileID: 11429576, guid: f27c19262ae007c479ff92b6ac675587, type: 2}
+  carVisualPlayer: {fileID: 11412530, guid: 5acc17c173f799440aebde41ee499535, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

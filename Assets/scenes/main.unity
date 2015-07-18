@@ -4268,6 +4268,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9d9eec7a2cb97214d8caf4138d524a95, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b2c55dea693951e46870fe482e1a1669, type: 2}
+    - target: {fileID: 2300006, guid: 9d9eec7a2cb97214d8caf4138d524a95, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d956a03ad40fb9438a962a0d2495bdc, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d9eec7a2cb97214d8caf4138d524a95, type: 2}
   m_IsPrefabParent: 0
@@ -5251,6 +5259,10 @@ Prefab:
       propertyPath: m_Name
       value: MotorBoat_military_S_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: 4ca8cd4eba9e38c4eb4b333b44b1a632, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d956a03ad40fb9438a962a0d2495bdc, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ca8cd4eba9e38c4eb4b333b44b1a632, type: 2}
   m_IsPrefabParent: 0
